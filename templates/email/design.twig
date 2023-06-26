@@ -1,6 +1,14 @@
 {% extends './_layout.twig' %}
 
+{% block header %}
+    {% include './content-elements/sections/header/template.twig' %}
+{% endblock %}
+
 {% block main %}
-  {% include './content-elements/content/title/template.twig' %}
-  {% include './content-elements/content/text/template.twig' %}
+    {% include './content-elements/content/full-email/template.twig' %}
+{% endblock %}
+
+{% block footer %}
+    {# {% include './content-elements/sections/footer-stores/template.twig' %} #}
+    {% include './content-elements/sections/footer/template.twig' %}
 {% endblock %}
