@@ -25,7 +25,6 @@ module.exports = cx.contentElement
         require("../../sections/two-column-image-title-text"),
         require("../../elements/divider"),
         require("../../elements/divider-violet"),
-        require("../../elements/spacer"),
-        require("../../sections/test-absolute-image")
+        require("../../elements/spacer")
       )
   );

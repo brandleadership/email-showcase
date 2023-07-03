@@ -33,7 +33,7 @@ module.exports = cx.design
         require("./content-elements/sections/free-delivery"),
         require("./content-elements/sections/full-width-image-title-text"),
         require("./content-elements/sections/two-column-image-title-text"),
-        require("./content-elements/sections/test-absolute-image")
+     
       ),
     cx.contentElementGroup
       .withGroupId("elements")
